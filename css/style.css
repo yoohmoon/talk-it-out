@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Gaegu&family=Hahmlet:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@import "./reset.css";
+
+@import "./variables.css";
+
+/* components */
+@import "../components/status-bar.css";
+
+@import "../components/nav-bar.css";
+
+@import "../components/screen-header.css";
+
+@import "../components/user-component.css";
+
+@import "../components/badge.css";
+
+@import "../components/no-mobile.css";
+
+
+
+/* screens */
+@import "../screens/login.css";
+@import "../screens/profile.css";
+
+body {
+
+font-family: 'Dokdo', cursive;
+font-family: 'Gaegu', cursive;
+font-family: 'Hahmlet', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.main-screen {
+    padding: 0 var(--horizontal-space);
+    margin-top: 12px;
+}
+
+i:hover {
+    cursor: pointer;
+}

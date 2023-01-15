@@ -1,0 +1,94 @@
+.welcome-header {
+    font-size: 25px;
+    font-weight: 500;
+
+    margin: 110px 0 30px;
+
+    text-align: center;
+}
+
+.welcome-header__title {
+    margin-bottom: 25px;
+}
+
+#logo img {
+width: 80px;
+height: 80px;
+}
+
+#signup-form button {
+ width: 260px;
+height: 35px;   
+
+border-radius: 3px;
+    
+}
+
+.signup-form__google-btn {
+    background-color: white;
+
+    border: 1px solid #EAEAEA;
+
+    cursor: pointer;
+}
+
+.signup-form__facebook-btn {
+    background-color: #3C5A9A;
+    color: white;
+
+    border-color: #3C5A9A;
+    
+    /* padding: 12px 0; */
+    /* padding-left: 12px; */
+
+    cursor: pointer;
+}
+
+.signup-form__email-btn {
+    background-color: #37A6FF;
+    color: white;
+
+    border-color: #37A6FF;
+
+    cursor: pointer;
+
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 20px;
+    margin-bottom: 130px;
+
+    
+}
+
+#signup-form button {
+    /* padding: 15px 0; */
+    font-size: 13px;
+    margin-bottom: 13px;
+
+    transition: border-color .3s ease-in-out;
+}
+
+#signup-form button:hover {
+    border-color: var(--skyblue);
+}
+
+.login {
+    text-align: center;
+}
+
+
+/* Already registered? */
+.login__desc {
+    opacity: 0.4;
+}
+
+.login a {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--skyblue);
+}
